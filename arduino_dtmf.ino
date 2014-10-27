@@ -8,8 +8,8 @@ const int StD=0;  //int 0 on digital pin 2
 //registered and the output latch updated
 int key;      //key represents the pressed key 
 int numberToCheck=9;   
-int led = 13;  //this pin goes to high if arduino receives code of 9 "1001" on pins
-const int pins[4]={8,9,10,11};  // inputs to arduino from dtmf -MT8870- Q1,Q2,Q2 and Q4
+const int pins[4]={8,9,10,11};  // inputs to arduino from dtmf -MT8870- Q1,Q2,Q2 and Q4               
+int led = 13;  //this pin goes to high if arduino receives code of 9 "1001" on pins 8,9,10,11
 ///////////////////
 void setup()
 {
